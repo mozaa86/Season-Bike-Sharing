@@ -63,7 +63,7 @@ max_date_hour = hours_df["dteday"].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/image1_hH9B4gs.jpg")
+   # st.image("https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/image1_hH9B4gs.jpg")
 
     
     st.write('Abimanyu Tri Wicaksono')
@@ -161,16 +161,3 @@ ax.set_xlabel(None)
 ax.tick_params(axis='x', labelsize=35)
 ax.tick_params(axis='y', labelsize=30)
 st.pyplot(fig)
-
-st.subheader("Perbandingan Customer yang Registered dengan casual")
-
-labels = 'casual', 'registered'
-sizes = [18.8, 81.2]
-explode = (0, 0.1) 
-
-fig1, ax1 = plt.subplots()
-ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',colors=["#D3D3D3", "#90CAF9"],
-        shadow=True, startangle=90)
-ax1.axis('equal')  
-
-st.pyplot(fig1)

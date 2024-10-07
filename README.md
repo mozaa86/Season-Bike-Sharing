@@ -2,8 +2,7 @@
 
 ## Project Analisis Data
 
-Repository ini berisi proyek data analytics yang saya kerjakan. Deployment in **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo"></img>
-
+Repository ini berisi proyek data analytics yang saya kerjakan. Deployment in **Streamlit** [Bisa diakses di sini](https://season-bike-sharing-cozky5htznsczfryzrtjk2.streamlit.app/)
 ## Deskripsi
 
 Proyek ini bertujuan untuk menganalisis data pada Bike Sharing Dataset. Tujuan akhirnya adalah untuk menghasilkan wawasan dan informasi yang berguna dari data yang dianalisis.
